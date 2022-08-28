@@ -33,6 +33,7 @@
 .footer-color {
     background-color: ;
     color: ;
+    border: 1px solid black;
 }
 a:link, .footer-link-color {
     color: ;
