@@ -1,0 +1,18 @@
+.bg-img {
+    background-image: url(../img/jellyfish.jpg);
+}
+
+.one-img-wh {
+    max-width: 300px;
+    height: 200px;
+}
+
+.three-img-wh {
+    max-width: 300px;
+    height: 200px;
+    position: absolute;
+    top: -150%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}

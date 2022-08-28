@@ -1,0 +1,12 @@
+1.1
+-Rename Pain to Username and move it to the right
+-readjust the content below under navbar (padding and height)
+-make the search bar more visible (border etc)
+-Duration of the course
+-Give border to courses
+-Give border bottom to the headings
+-Sayar is a fan of Andrew Tate
+-Inside the collapsible group item, give padding (right and left) so that the texts are inner than the titles
+-Change the whole Collapsible Group Item design 
+-Give life to everything
+-Move everything up including the text (Name) and the description

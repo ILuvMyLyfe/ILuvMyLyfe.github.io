@@ -1,0 +1,20 @@
+Navbar
+-Rename the Username
+-Beside the username there is a dropdown
+-Inside the dropdown there is profile, setting, log out
+
+Content-one
+-Courses is border bottom (heading)
+-Search bar beside courses is from bs
+-Duration text should be smaller than Image and description
+-Course name greater than sign (make it a link)
+
+Content-two
+-Example is border bottom (heading)
+
+Content-three
+-News has border bottom (heading)
+-carousel with captions
+
+Footer
+-

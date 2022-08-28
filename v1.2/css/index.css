@@ -1,0 +1,300 @@
+.position {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.bg-img {
+    background-image: url(../img/witcher.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+
+.title {
+    border-bottom: 1.25px solid black;
+}
+
+.standard-padding {
+    padding: 0px 48px;
+}
+
+.height {
+    height: 100%;
+}
+
+.zero {
+    height: 275px !important;
+    padding: 50px 24px !important;
+}
+
+.zero-content {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    margin-bottom: 0px;
+}
+
+.zero-fs-content {
+    font-size: 16px;
+}
+
+.one-padding {
+    padding: 24px 48px !important;
+}
+
+.one-padding-inner {
+    padding: 0px 15px;
+}
+
+.one-border-content {
+    border-top: 1.5px solid black;
+    border-right: 1.5px solid black;
+    border-bottom: 1.25px solid black;
+    border-left: 1.5px solid black;
+}
+
+.one-border-course {
+    border-top: 1.25px solid black;
+    border-right: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    border-left: 1.5px solid black;
+}
+
+.collapsible-grp-items {
+    overflow-y: scroll;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+}
+
+.two-height-left {
+    height: 365px;
+}
+
+.two-border-right {
+    border: 1.5px solid black;
+    padding: 24px;
+}
+
+.two-mb {
+    margin-bottom: 24px;
+}
+
+.three-img-wh {
+    max-width: 300px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.carousel-inner {
+    max-height: 450px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-m {
+    margin: auto;
+}
+
+.p-footer-right {
+    padding: 24px 48px 24px 0px;
+}
+
+.p-footer-left {
+    padding: 24px 0px 24px 48px;
+}
+
+.p-fivepx {
+    padding: 0px 0px 0px 5px;
+}
+
+.footer-fs-title {
+    font-size: 20px;
+}
+
+.footer-fs-details {
+    font-size: 15px;
+}
+
+.footer-fs-content {
+    font-size: 13px;
+}
+
+.footer-lh {
+    line-height: 43px;
+}
+
+@media (max-width: 1700px) {
+    .carousel-caption {
+        top: 13%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .carousel-caption {
+        top: 14%;
+    }
+}
+
+@media (max-width: 1500px) {
+    .carousel-caption {
+        top: 14.5%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .carousel-caption {
+        top: 15%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .carousel-caption {
+        top: 16%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .carousel-caption {
+        top: 18%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .carousel-caption {
+        top: 19%;
+    }
+}
+
+@media (max-width: 992px) {
+    .zero {
+        height: 250px !important;
+    }
+
+    .three-img-wh {
+        max-width: 250px;
+        height: 180px;
+    }
+    .carousel-caption {
+        top: 25%;
+    }
+}
+
+@media (max-width: 800px) {
+    .three-img-wh {
+        max-width: 235px;
+        height: 165px;
+    }
+    .carousel-caption {
+        top: 25%;
+    }
+}
+
+@media (max-width: 780px) {
+    .zero-fs-content {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .zero {
+        height: 225px;
+    }
+
+    .three-img-wh {
+        max-width: 200px;
+        height: 150px;
+    }
+
+    .carousel-caption {
+        top: 25%;
+    }
+}
+
+@media (max-width: 676px) {
+    .zero-fs-content {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 590px) {
+    .zero-fs-content {
+        font-size: 12.5px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .standard-fs {
+        font-size: 14.5px;
+    }
+
+    .standard-padding {
+        padding: 0px 24px;
+    }
+
+    .zero {
+        height: 250px !important;
+    }
+
+    .one-padding {
+        padding: 24px !important;
+    }
+
+    .p-footer-right {
+        padding: 24px 48px !important;
+    }
+
+    .p-footer-left {
+        padding: 0px 48px 24px !important;
+    }
+}
+
+@media (max-width: 476px) {
+    .zero-fs-content {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 390px) {
+    .zero-fs-content {
+        font-size: 10.5px;
+    }
+}
+
+@media (max-width: 376px) {
+    .zero-fs-content {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 349px) {
+    .two-mb {
+        margin-bottom: 80px !important;
+    }
+}
+
+@media (max-width: 340px) {
+    .zero-fs-content {
+        font-size: 9.5px;
+    }
+}
+
+@media (max-width: 330px) {
+    .zero-fs-content {
+        font-size: 9px;
+    }
+}

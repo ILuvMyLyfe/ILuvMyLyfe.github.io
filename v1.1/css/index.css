@@ -1,0 +1,141 @@
+.position {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.bg-img {
+    background-image: url(../img/witcher.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+
+.title {
+    border-bottom: 1.25px solid black;
+}
+
+.zero {
+    height: 275px !important;
+    padding: 50px 24px !important;
+}
+
+.zero-content {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+}
+
+.one-padding {
+    padding: 24px 48px !important;
+}
+
+.one-padding-inner {
+    padding: 0px 15px;
+}
+
+.one-border-content {
+    border-top: 1.5px solid black;
+    border-right: 1.5px solid black;
+    border-bottom: 1.25px solid black;
+    border-left: 1.5px solid black;
+}
+
+.one-border-course {
+    border-top: 1.25px solid black;
+    border-right: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    border-left: 1.5px solid black;
+}
+
+.collapsible-grp-items {
+    overflow-y: scroll;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+}
+
+.two-height-left {
+    height: 365px;
+}
+
+.two-border-right {
+    border: 1.5px solid black;
+    padding: 24px;
+}
+
+.three-img-wh {
+    max-width: 300px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.three-content {
+    position: absolute;
+    top: 30%;
+}
+
+.footer-m {
+    margin: auto;
+}
+
+.p-footer-right {
+    padding: 24px 48px 24px 0px;
+}
+
+.p-footer-left {
+    padding: 24px 0px 24px 48px;
+}
+
+.p-fivepx {
+    padding: 0px 0px 0px 5px;
+}
+
+.footer-fs-title {
+    font-size: 20px;
+}
+
+.footer-fs-details {
+    font-size: 15px;
+}
+
+.footer-fs-content {
+    font-size: 13px;
+}
+
+.footer-lh {
+    line-height: 43px;
+}
+
+@media (max-width: 992px) {
+    .zero {
+        height: 250px !important;
+    }
+
+    .three-content {
+        position: absolute;
+        top: 20%;
+    }
+}
+
+@media (max-width: 768px) {
+    .zero {
+        height: 225px;
+    }
+}
+
+@media (max-width: 576px) {
+    .zero {
+        height: 200px !important;
+    }
+
+    .p-footer-right {
+        padding: 24px 48px !important;
+    }
+
+    .p-footer-left {
+        padding: 0px 48px 24px !important;
+    }
+}
