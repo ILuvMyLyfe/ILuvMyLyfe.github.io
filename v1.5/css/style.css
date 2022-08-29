@@ -137,9 +137,6 @@ a:hover {
 ::-webkit-scrollbar {
     width: 16px;
 }
-::-webkit-scrollbar-button {
-    background-color: ;
-}
 ::-webkit-scrollbar-thumb {
     background-color: #21434D; 
     border-radius: 100vw;
